@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* working on navbar section*/
+/* working on navbar display */
+.navbar {
+  color: white;
+  background-color: rgb(4, 73, 4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar div {
+  display: inline-flex;
+}
+
+img {
+  border: 2px solid black;
+  border-radius: 200%;
+  align-content: center;
+  width: 70px;
+  height: full;
+  object-fit: cover;
+}
+
+/* using display inline on list */
+.navlinks li {
+  display: inline;
+  margin: 3px;
+}
+
+li:hover {
+  color: black;
+}
+/* end of navbar section */
+
+/* working on header section */
+.header {
+  color: white;
+  background-color: #7d3615;
+  padding: 30px;
+  margin-top: 15px;
+}
+
+/* working on icons */
+.icons div {
+  display: inline;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-right: 20px;
+  padding: 10px;
+}
+/* end of header section */
+
+/* working on body section */
+.mainbody {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin: 90px;
+  margin-top: 30px;
+}
+
+/* working on body */
+h4 {
+  text-align: left;
+}
+
+.first1,
+.first2,
+.first3,
+.second1,
+.second2,
+.second3 {
+  background-color: rgb(242, 242, 144);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.first1,
+.second1 {
+  padding: 15px;
+}
+
+.first2,
+.second2 {
+  padding: 30px;
+}
+
+.first3,
+.second3 {
+  padding: 40px;
+}
+
+.second2 ul {
+  list-style: none;
+  text-align: start;
+}
+/* end of body section */
+
+/* working on footer */
+footer {
+  color: #fff;
+  background-color: rgb(4, 73, 4);
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+  position: sticky;
+  bottom: 0;
+}
